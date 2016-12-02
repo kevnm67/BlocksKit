@@ -42,6 +42,7 @@
 		D8D550CB1DF18EF200B90177 /* BlocksKit+MessageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA5091B3A6720004B70F8 /* BlocksKit+MessageUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550CC1DF18EF800B90177 /* BlocksKit+QuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA50A1B3A6720004B70F8 /* BlocksKit+QuickLook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550CD1DF18F3600B90177 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B96181B3A52A700940D20 /* BlocksKit.framework */; };
+		D8D550DE1DF1949500B90177 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D550DD1DF1949500B90177 /* BlocksKit+UIKit.h */; };
 		DB4CA4261B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4271B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4281B3A662A004B70F8 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4061B3A662A004B70F8 /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -380,6 +381,7 @@
 		D8D550A21DF18DF300B90177 /* BlocksKitUIKitExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlocksKitUIKitExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D550A41DF18DF300B90177 /* BlocksKitUIKitExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlocksKitUIKitExtensions.h; sourceTree = "<group>"; };
 		D8D550A51DF18DF300B90177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D550DD1DF1949500B90177 /* BlocksKit+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+UIKit.h"; path = "BlocksKit/BlocksKit+UIKit.h"; sourceTree = SOURCE_ROOT; };
 		DB4CA3F91B3A624B004B70F8 /* Common-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Common-Framework.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FA1B3A624B004B70F8 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FB1B3A624B004B70F8 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -589,6 +591,7 @@
 				DB4CA48E1B3A6657004B70F8 /* UIKit */,
 				DB4CA5091B3A6720004B70F8 /* BlocksKit+MessageUI.h */,
 				DB4CA50A1B3A6720004B70F8 /* BlocksKit+QuickLook.h */,
+				D8D550DD1DF1949500B90177 /* BlocksKit+UIKit.h */,
 				D8D550A41DF18DF300B90177 /* BlocksKitUIKitExtensions.h */,
 				D8D550A51DF18DF300B90177 /* Info.plist */,
 			);
@@ -903,6 +906,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D550DE1DF1949500B90177 /* BlocksKit+UIKit.h in Headers */,
 				D8D550AE1DF18E5200B90177 /* UIBarButtonItem+BlocksKit.h in Headers */,
 				D8D550C41DF18ED000B90177 /* QLPreviewController+BlocksKit.h in Headers */,
 				D8D550CC1DF18EF800B90177 /* BlocksKit+QuickLook.h in Headers */,
@@ -1513,6 +1517,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "BlocksKit/Module-UIKit-iOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit.BlocksKitUIKitExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1568,6 +1573,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "BlocksKit/Module-UIKit-iOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit.BlocksKitUIKitExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
