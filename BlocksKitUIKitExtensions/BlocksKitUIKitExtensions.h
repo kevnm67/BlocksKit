@@ -25,6 +25,7 @@
 //  THE SOFTWARE.
 //
 
+#import <BlocksKit/BlocksKit.h>
 #import <UIKit/UIKit.h>
 
 #import <BlocksKitUIKitExtensions/BlocksKit+UIKit.h>

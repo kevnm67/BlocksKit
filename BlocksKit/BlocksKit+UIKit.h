@@ -25,19 +25,19 @@
 //  THE SOFTWARE.
 //
 
-#import <BlocksKit/BlocksKit.h>
+#import <BlocksKitUIKitExtensions/BlocksKitUIKitExtensions.h>
 
-#import <BlocksKit/UIActionSheet+BlocksKit.h>
-#import <BlocksKit/UIAlertView+BlocksKit.h>
-#import <BlocksKit/UIBarButtonItem+BlocksKit.h>
-#import <BlocksKit/UIControl+BlocksKit.h>
-#import <BlocksKit/UIGestureRecognizer+BlocksKit.h>
-#import <BlocksKit/UIImage+BlocksKit.h>
-#import <BlocksKit/UIImagePickerController+BlocksKit.h>
-#import <BlocksKit/UIPopoverController+BlocksKit.h>
-#import <BlocksKit/UITextField+BlocksKit.h>
-#import <BlocksKit/UIView+BlocksKit.h>
-#import <BlocksKit/UIWebView+BlocksKit.h>
-#import <BlocksKit/UITextField+BlocksKit.h>
-#import <BlocksKit/UITextView+BlocksKit.h>
-#import <BlocksKit/UIImagePickerController+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIActionSheet+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIAlertView+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIBarButtonItem+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIControl+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIGestureRecognizer+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIImage+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIImagePickerController+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIPopoverController+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UITextField+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIView+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIWebView+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UITextField+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UITextView+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/UIImagePickerController+BlocksKit.h>
