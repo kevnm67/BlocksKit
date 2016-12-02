@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D8D550A61DF18DF300B90177 /* BlocksKitUIKitExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D550A41DF18DF300B90177 /* BlocksKitUIKitExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8D550AA1DF18E3700B90177 /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4901B3A6657004B70F8 /* UIActionSheet+BlocksKit.m */; };
-		D8D550AB1DF18E3700B90177 /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4901B3A6657004B70F8 /* UIActionSheet+BlocksKit.m */; };
-		D8D550AC1DF18E3E00B90177 /* UIActionSheet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA48F1B3A6657004B70F8 /* UIActionSheet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8D550AD1DF18E5200B90177 /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4911B3A6657004B70F8 /* UIAlertView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550AE1DF18E5200B90177 /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4931B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550AF1DF18E5200B90177 /* UIControl+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4951B3A6657004B70F8 /* UIControl+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550B01DF18E5200B90177 /* UIGestureRecognizer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4971B3A6657004B70F8 /* UIGestureRecognizer+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,7 +18,6 @@
 		D8D550B51DF18E5200B90177 /* UITextView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5C6C4E1C52009700778E5F /* UITextView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550B61DF18E5200B90177 /* UIView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4A11B3A6657004B70F8 /* UIView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550B71DF18E5200B90177 /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4A31B3A6657004B70F8 /* UIWebView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8D550B91DF18E6B00B90177 /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4921B3A6657004B70F8 /* UIAlertView+BlocksKit.m */; };
 		D8D550BA1DF18E6B00B90177 /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4941B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.m */; };
 		D8D550BB1DF18E6B00B90177 /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4961B3A6657004B70F8 /* UIControl+BlocksKit.m */; };
 		D8D550BC1DF18E6B00B90177 /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4981B3A6657004B70F8 /* UIGestureRecognizer+BlocksKit.m */; };
@@ -158,7 +153,6 @@
 		DB4CA4C71B3A6657004B70F8 /* MFMailComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4881B3A6657004B70F8 /* MFMailComposeViewController+BlocksKit.m */; };
 		DB4CA4CC1B3A6657004B70F8 /* MFMessageComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA48A1B3A6657004B70F8 /* MFMessageComposeViewController+BlocksKit.m */; };
 		DB4CA4D11B3A6657004B70F8 /* QLPreviewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA48D1B3A6657004B70F8 /* QLPreviewController+BlocksKit.m */; };
-		DB4CA4DB1B3A6657004B70F8 /* UIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4921B3A6657004B70F8 /* UIAlertView+BlocksKit.m */; };
 		DB4CA4E01B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4941B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.m */; };
 		DB4CA4E51B3A6657004B70F8 /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4961B3A6657004B70F8 /* UIControl+BlocksKit.m */; };
 		DB4CA4EA1B3A6657004B70F8 /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4CA4981B3A6657004B70F8 /* UIGestureRecognizer+BlocksKit.m */; };
@@ -267,8 +261,6 @@
 		DB5C6C701C5200B200778E5F /* MFMailComposeViewController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4871B3A6657004B70F8 /* MFMailComposeViewController+BlocksKit.h */; };
 		DB5C6C711C5200B200778E5F /* MFMessageComposeViewController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4891B3A6657004B70F8 /* MFMessageComposeViewController+BlocksKit.h */; };
 		DB5C6C721C5200B200778E5F /* QLPreviewController+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA48C1B3A6657004B70F8 /* QLPreviewController+BlocksKit.h */; };
-		DB5C6C731C5200B200778E5F /* UIActionSheet+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA48F1B3A6657004B70F8 /* UIActionSheet+BlocksKit.h */; };
-		DB5C6C741C5200B200778E5F /* UIAlertView+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4911B3A6657004B70F8 /* UIAlertView+BlocksKit.h */; };
 		DB5C6C751C5200B200778E5F /* UIBarButtonItem+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4931B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.h */; };
 		DB5C6C761C5200B200778E5F /* UIControl+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4951B3A6657004B70F8 /* UIControl+BlocksKit.h */; };
 		DB5C6C771C5200B200778E5F /* UIGestureRecognizer+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB4CA4971B3A6657004B70F8 /* UIGestureRecognizer+BlocksKit.h */; };
@@ -360,8 +352,6 @@
 				DB5C6C701C5200B200778E5F /* MFMailComposeViewController+BlocksKit.h in CopyFiles */,
 				DB5C6C711C5200B200778E5F /* MFMessageComposeViewController+BlocksKit.h in CopyFiles */,
 				DB5C6C721C5200B200778E5F /* QLPreviewController+BlocksKit.h in CopyFiles */,
-				DB5C6C731C5200B200778E5F /* UIActionSheet+BlocksKit.h in CopyFiles */,
-				DB5C6C741C5200B200778E5F /* UIAlertView+BlocksKit.h in CopyFiles */,
 				DB5C6C751C5200B200778E5F /* UIBarButtonItem+BlocksKit.h in CopyFiles */,
 				DB5C6C761C5200B200778E5F /* UIControl+BlocksKit.h in CopyFiles */,
 				DB5C6C771C5200B200778E5F /* UIGestureRecognizer+BlocksKit.h in CopyFiles */,
@@ -442,10 +432,6 @@
 		DB4CA48A1B3A6657004B70F8 /* MFMessageComposeViewController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MFMessageComposeViewController+BlocksKit.m"; sourceTree = "<group>"; };
 		DB4CA48C1B3A6657004B70F8 /* QLPreviewController+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QLPreviewController+BlocksKit.h"; sourceTree = "<group>"; };
 		DB4CA48D1B3A6657004B70F8 /* QLPreviewController+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QLPreviewController+BlocksKit.m"; sourceTree = "<group>"; };
-		DB4CA48F1B3A6657004B70F8 /* UIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
-		DB4CA4901B3A6657004B70F8 /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
-		DB4CA4911B3A6657004B70F8 /* UIAlertView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
-		DB4CA4921B3A6657004B70F8 /* UIAlertView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
 		DB4CA4931B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
 		DB4CA4941B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
 		DB4CA4951B3A6657004B70F8 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
@@ -700,10 +686,6 @@
 		DB4CA48E1B3A6657004B70F8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				DB4CA48F1B3A6657004B70F8 /* UIActionSheet+BlocksKit.h */,
-				DB4CA4901B3A6657004B70F8 /* UIActionSheet+BlocksKit.m */,
-				DB4CA4911B3A6657004B70F8 /* UIAlertView+BlocksKit.h */,
-				DB4CA4921B3A6657004B70F8 /* UIAlertView+BlocksKit.m */,
 				DB4CA4931B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.h */,
 				DB4CA4941B3A6657004B70F8 /* UIBarButtonItem+BlocksKit.m */,
 				DB4CA4951B3A6657004B70F8 /* UIControl+BlocksKit.h */,
@@ -919,8 +901,6 @@
 				D8D550B71DF18E5200B90177 /* UIWebView+BlocksKit.h in Headers */,
 				D8D550B41DF18E5200B90177 /* UITextField+BlocksKit.h in Headers */,
 				D8D550B21DF18E5200B90177 /* UIImagePickerController+BlocksKit.h in Headers */,
-				D8D550AD1DF18E5200B90177 /* UIAlertView+BlocksKit.h in Headers */,
-				D8D550AC1DF18E3E00B90177 /* UIActionSheet+BlocksKit.h in Headers */,
 				D8D550B61DF18E5200B90177 /* UIView+BlocksKit.h in Headers */,
 				D8D550C71DF18EE100B90177 /* MFMessageComposeViewController+BlocksKit.h in Headers */,
 				D8D550B31DF18E5200B90177 /* UIPopoverController+BlocksKit.h in Headers */,
@@ -1240,13 +1220,11 @@
 				D8D550BB1DF18E6B00B90177 /* UIControl+BlocksKit.m in Sources */,
 				D8D550C11DF18E6B00B90177 /* UITextView+BlocksKit.m in Sources */,
 				D8D550C01DF18E6B00B90177 /* UITextField+BlocksKit.m in Sources */,
-				D8D550B91DF18E6B00B90177 /* UIAlertView+BlocksKit.m in Sources */,
 				D8D550CA1DF18EE900B90177 /* MFMessageComposeViewController+BlocksKit.m in Sources */,
 				D8D550C81DF18EE500B90177 /* MFMailComposeViewController+BlocksKit.m in Sources */,
 				D8D550C51DF18ED800B90177 /* QLPreviewController+BlocksKit.m in Sources */,
 				D8D550C31DF18E6B00B90177 /* UIWebView+BlocksKit.m in Sources */,
 				D8D550BE1DF18E6B00B90177 /* UIImagePickerController+BlocksKit.m in Sources */,
-				D8D550AB1DF18E3700B90177 /* UIActionSheet+BlocksKit.m in Sources */,
 				D8D550BA1DF18E6B00B90177 /* UIBarButtonItem+BlocksKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1416,9 +1394,7 @@
 				DB5C6C4C1C52005900778E5F /* NSNumber+BlocksKit.m in Sources */,
 				DB4CA4BD1B3A6657004B70F8 /* NSObject+A2BlockDelegate.m in Sources */,
 				DB4CA4681B3A662A004B70F8 /* NSObject+BKBlockObservation.m in Sources */,
-				DB4CA4DB1B3A6657004B70F8 /* UIAlertView+BlocksKit.m in Sources */,
 				DB4CA4FE1B3A6657004B70F8 /* UITextField+BlocksKit.m in Sources */,
-				D8D550AA1DF18E3700B90177 /* UIActionSheet+BlocksKit.m in Sources */,
 				DB4CA4F91B3A6657004B70F8 /* UIPopoverController+BlocksKit.m in Sources */,
 				DB5C6C521C52009700778E5F /* UITextView+BlocksKit.m in Sources */,
 				DB4CA4771B3A662A004B70F8 /* NSTimer+BlocksKit.m in Sources */,

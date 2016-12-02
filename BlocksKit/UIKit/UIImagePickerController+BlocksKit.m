@@ -4,9 +4,9 @@
 //
 
 #import "UIImagePickerController+BlocksKit.h"
-#import "A2DynamicDelegate.h"
-#import "NSObject+A2DynamicDelegate.h"
-#import "NSObject+A2BlockDelegate.h"
+#import <BlocksKit/A2DynamicDelegate.h>
+#import <BlocksKit/NSObject+A2DynamicDelegate.h>
+#import <BlocksKit/NSObject+A2BlockDelegate.h>
 
 #pragma mark Custom delegate
 

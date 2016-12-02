@@ -4,7 +4,7 @@
 //
 
 #import "UIGestureRecognizer+BlocksKit.h"
-#import "NSObject+BKBlockExecution.h"
+#import <BlocksKit/NSObject+BKBlockExecution.h>
 @import ObjectiveC.runtime;
 
 static const void *BKGestureRecognizerBlockKey = &BKGestureRecognizerBlockKey;
