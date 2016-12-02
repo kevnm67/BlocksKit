@@ -1,4 +1,4 @@
-framework module BlocksKit {
+framework module BlocksKitUIKitExtensions {
   umbrella header "BlocksKit.h"
   requires objc
 
