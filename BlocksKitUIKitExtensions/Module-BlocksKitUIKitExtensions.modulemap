@@ -1,5 +1,5 @@
 framework module BlocksKitUIKitExtensions {
-  umbrella header "BlocksKit.h"
+  umbrella header "BlocksKitUIKitExtensions.h"
   requires objc
 
   module Dynamic {
