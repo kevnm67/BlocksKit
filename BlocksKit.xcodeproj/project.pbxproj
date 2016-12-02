@@ -42,7 +42,7 @@
 		D8D550CB1DF18EF200B90177 /* BlocksKit+MessageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA5091B3A6720004B70F8 /* BlocksKit+MessageUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550CC1DF18EF800B90177 /* BlocksKit+QuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA50A1B3A6720004B70F8 /* BlocksKit+QuickLook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D550CD1DF18F3600B90177 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9B96181B3A52A700940D20 /* BlocksKit.framework */; };
-		D8D550DE1DF1949500B90177 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D550DD1DF1949500B90177 /* BlocksKit+UIKit.h */; };
+		D8D550DE1DF1949500B90177 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D550DD1DF1949500B90177 /* BlocksKit+UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4261B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4271B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4281B3A662A004B70F8 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4061B3A662A004B70F8 /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1820,6 +1820,7 @@
 				D8D550A91DF18DF300B90177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB9B96121B3A52A700940D20 /* Build configuration list for PBXProject "BlocksKit" */ = {
 			isa = XCConfigurationList;
