@@ -62,7 +62,11 @@ static const void *BKGestureRecognizerShouldHandleActionKey = &BKGestureRecogniz
 
 	self.bk_shouldHandleAction = YES;
 
-    [NSObject bk_performAfterDelay:delay usingBlock:block];
+    if (delay > 0.0) {
+        [NSObject bk_performAfterDelay:delay usingBlock:block];
+    } else {
+        block();
+    }
 }
 
 - (void)bk_setHandler:(void (^)(UIGestureRecognizer *sender, UIGestureRecognizerState state, CGPoint location))handler
@@ -77,7 +81,7 @@ static const void *BKGestureRecognizerShouldHandleActionKey = &BKGestureRecogniz
 
 - (void)bk_setHandlerDelay:(NSTimeInterval)delay
 {
-	NSNumber *delayValue = delay ? @(delay) : nil;
+	NSNumber *delayValue = delay > 0.0 ? @(delay) : nil;
 	objc_setAssociatedObject(self, BKGestureRecognizerDelayKey, delayValue, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
