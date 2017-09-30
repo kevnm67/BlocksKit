@@ -4,7 +4,7 @@
 //
 
 #import "UIGestureRecognizer+BlocksKit.h"
-#import "NSObject+BKBlockExecution.h"
+#import <BlocksKit/NSObject+BKBlockExecution.h>
 @import ObjectiveC.runtime;
 
 static const void *BKGestureRecognizerBlockKey = &BKGestureRecognizerBlockKey;
@@ -54,14 +54,19 @@ static const void *BKGestureRecognizerShouldHandleActionKey = &BKGestureRecogniz
 	
 	NSTimeInterval delay = self.bk_handlerDelay;
 	CGPoint location = [self locationInView:self.view];
+    UIGestureRecognizerState state = self.state;
 	void (^block)(void) = ^{
 		if (!self.bk_shouldHandleAction) return;
-		handler(self, self.state, location);
+		handler(self, state, location);
 	};
 
 	self.bk_shouldHandleAction = YES;
 
-    [NSObject bk_performAfterDelay:delay usingBlock:block];
+    if (delay > 0.0) {
+        [NSObject bk_performAfterDelay:delay usingBlock:block];
+    } else {
+        block();
+    }
 }
 
 - (void)bk_setHandler:(void (^)(UIGestureRecognizer *sender, UIGestureRecognizerState state, CGPoint location))handler
@@ -76,7 +81,7 @@ static const void *BKGestureRecognizerShouldHandleActionKey = &BKGestureRecogniz
 
 - (void)bk_setHandlerDelay:(NSTimeInterval)delay
 {
-	NSNumber *delayValue = delay ? @(delay) : nil;
+	NSNumber *delayValue = delay > 0.0 ? @(delay) : nil;
 	objc_setAssociatedObject(self, BKGestureRecognizerDelayKey, delayValue, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 

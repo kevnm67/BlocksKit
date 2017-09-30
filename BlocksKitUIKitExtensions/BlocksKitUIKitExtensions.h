@@ -1,9 +1,10 @@
 //
-//  BlocksKit QuickLook Extensions
+//  BlocksKit UIKit Extensions
 //
 //  The Objective-C block utilities you always wish you had.
 //
-//  Copyright (c) 201 Boolean Candy Pty Ltd
+//  Copyright (c) 2011-2012, 2013-2014 Zachary Waldowski
+//  Copyright (c) 2012-2013 Pandamonia LLC
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -24,6 +25,9 @@
 //  THE SOFTWARE.
 //
 
-#import <BlocksKitUIKitExtensions/BlocksKitUIKitExtensions.h>
+#import <BlocksKit/BlocksKit.h>
+#import <UIKit/UIKit.h>
 
-#import <BlocksKitUIKitExtensions/QLPreviewController+BlocksKit.h>
+#import <BlocksKitUIKitExtensions/BlocksKit+UIKit.h>
+#import <BlocksKitUIKitExtensions/BlocksKit+MessageUI.h>
+#import <BlocksKitUIKitExtensions/BlocksKit+QuickLook.h>
